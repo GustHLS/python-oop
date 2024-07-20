@@ -15,3 +15,10 @@
   - Pratiquei o uso da função property em outros atributos, como categoria e ativo, proporcionando uma abordagem mais controlada e facilitando o acesso aos valores desses atributos.
   - Criei e utilizei métodos de classe, que são métodos que agem sobre a classe como um todo, em vez de uma instância específica. No exemplo, criei o método listar_restaurantes para exibir uma lista formatada dos restaurantes.
   - Demonstrei o conceito de abstração ao utilizar a propriedade ativo para apresentar visualmente o estado ativo ou inativo de um restaurante.
+
+
+- Aula 4
+  - Aprendi a importar classes em arquivos Python, utilizando essa habilidade para importar a classe Restaurante para o arquivo principal (app.py), permitindo utilizar suas funcionalidades no programa.
+  - Explorei ainda mais os princípios da Programação Orientada a Objetos (OO), criando uma nova classe para reforçar conceitos fundamentais. Entendemos como a criação de classes e instâncias proporciona uma estrutura organizada e modular para o código.
+  - Avançamos na integração entre classes, especificamente entre as classes Restaurante e Avaliação. Agora, temos uma lista de objetos de avaliação associados a cada restaurante, demonstrando a relação e interdependência entre diferentes entidades em um sistema.
+  - Utilizei técnicas de listagem para criar funcionalidades que permitam visualizar as avaliações associadas a cada restaurante. Isso consolidou meu entendimento sobre como gerenciar e apresentar dados de maneira eficiente no programa.
