@@ -1,18 +1,22 @@
 class Restaurante:
-
+    restaurantes = []
 
     def __init__(self, nome, categoria):
-        # Método construtor, chamado automaticamente quando uma nova instância da classe é criada
         self.nome = nome
         self.categoria = categoria
         self.ativo = False
+        Restaurante.restaurantes.append(self)
 
     def __str__(self):
-        # Método especial que retorna uma 'string' representando a instância da classe
         return f"{self.nome} | {self.categoria}"
+
+    @staticmethod
+    def listar_restaurante():
+        for restaurante in Restaurante.restaurantes:
+            print(f"{restaurante.nome} | {restaurante.categoria} | {restaurante.ativo}")
+
 
 restaurante_praca = Restaurante('Praça', 'Gourmet')
 restaurante_pizza = Restaurante('Pizza Express', 'Italiana')
 
-print(restaurante_praca)
-print(restaurante_pizza)
+Restaurante.listar_restaurante()
