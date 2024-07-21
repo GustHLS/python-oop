@@ -29,3 +29,8 @@
   - Explorei o momento adequado para criar docstrings, destacando que elas são especialmente úteis quando se desenvolve aplicações que podem ser compartilhadas com outros desenvolvedores. Documentar o propósito, parâmetros e comportamento de funções facilita a compreensão e colaboração no código.
   - Entendi que nas situações em que pode não ser necessário criar docstrings, como em códigos muito simples e autoexplicativos, onde o propósito das funções é óbvio ou em projetos pessoais de curto prazo.
   - Enfatizei que a prática consistente de documentar o código através de docstrings contribui para a manutenção eficiente do código ao longo do tempo, facilitando a resolução de problemas, a implementação de novos recursos e a colaboração entre membros da equipe.
+
+- Aula 6
+  - Criei a classe principal chamada ItemCardapio com um construtor que aceita os parâmetros nome e preço;
+  - Implementei duas classes chamadas Bebida e Prato que herdam atributos e métodos da classe ItemCardapio, utilizando super() no construtor para aproveitar a estrutura da classe pai;
+  - Criei objetos das classes Prato e Bebida, demonstrando como a herança pode ser utilizada para compartilhar funcionalidades entre diferentes tipos de itens de cardápio.
