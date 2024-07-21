@@ -22,3 +22,10 @@
   - Explorei ainda mais os princípios da Programação Orientada a Objetos (OO), criando uma nova classe para reforçar conceitos fundamentais. Entendemos como a criação de classes e instâncias proporciona uma estrutura organizada e modular para o código.
   - Avançamos na integração entre classes, especificamente entre as classes Restaurante e Avaliação. Agora, temos uma lista de objetos de avaliação associados a cada restaurante, demonstrando a relação e interdependência entre diferentes entidades em um sistema.
   - Utilizei técnicas de listagem para criar funcionalidades que permitam visualizar as avaliações associadas a cada restaurante. Isso consolidou meu entendimento sobre como gerenciar e apresentar dados de maneira eficiente no programa.
+
+
+- Aula 5
+  - Abordei a importância de criar docstrings no código, que são comentários incorporados diretamente no código-fonte para documentar funções, métodos, módulos ou classes.
+  - Explorei o momento adequado para criar docstrings, destacando que elas são especialmente úteis quando se desenvolve aplicações que podem ser compartilhadas com outros desenvolvedores. Documentar o propósito, parâmetros e comportamento de funções facilita a compreensão e colaboração no código.
+  - Entendi que nas situações em que pode não ser necessário criar docstrings, como em códigos muito simples e autoexplicativos, onde o propósito das funções é óbvio ou em projetos pessoais de curto prazo.
+  - Enfatizei que a prática consistente de documentar o código através de docstrings contribui para a manutenção eficiente do código ao longo do tempo, facilitando a resolução de problemas, a implementação de novos recursos e a colaboração entre membros da equipe.
