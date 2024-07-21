@@ -30,7 +30,15 @@
   - Entendi que nas situações em que pode não ser necessário criar docstrings, como em códigos muito simples e autoexplicativos, onde o propósito das funções é óbvio ou em projetos pessoais de curto prazo.
   - Enfatizei que a prática consistente de documentar o código através de docstrings contribui para a manutenção eficiente do código ao longo do tempo, facilitando a resolução de problemas, a implementação de novos recursos e a colaboração entre membros da equipe.
 
+
 - Aula 6
   - Criei a classe principal chamada ItemCardapio com um construtor que aceita os parâmetros nome e preço;
   - Implementei duas classes chamadas Bebida e Prato que herdam atributos e métodos da classe ItemCardapio, utilizando super() no construtor para aproveitar a estrutura da classe pai;
   - Criei objetos das classes Prato e Bebida, demonstrando como a herança pode ser utilizada para compartilhar funcionalidades entre diferentes tipos de itens de cardápio.
+
+
+- Aula 7
+  - Criei um método para adicionar itens ao cardápio e refatorei a função para receber qualquer objeto que seja uma instância de ItemCardapio;
+  - Utilizei o conceito de property para exibir o cardápio de cada restaurante, proporcionando uma visão clara dos itens disponíveis;
+  - Desenvolvi o método abstrato chamado aplicar_desconto que permite aplicar descontos de forma flexível a diferentes tipos de itens no cardápio;
+  - Apliquei um valor de desconto tanto em bebidas quanto em pratos, destacando o polimorfismo na prática, onde diferentes classes respondem ao mesmo método de maneiras distintas.
