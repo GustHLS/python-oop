@@ -42,3 +42,14 @@
   - Utilizei o conceito de property para exibir o cardápio de cada restaurante, proporcionando uma visão clara dos itens disponíveis;
   - Desenvolvi o método abstrato chamado aplicar_desconto que permite aplicar descontos de forma flexível a diferentes tipos de itens no cardápio;
   - Apliquei um valor de desconto tanto em bebidas quanto em pratos, destacando o polimorfismo na prática, onde diferentes classes respondem ao mesmo método de maneiras distintas.
+
+
+- Aula 8
+  - Explorei o conceito fundamental de ambientes virtualizados no desenvolvimento de software, compreendendo sua importância para isolar e gerenciar dependências de projetos.
+  - Aprendi a criar e ativar um ambiente virtual na minha máquina utilizando a ferramenta venv, uma prática essencial para garantir a consistência do ambiente de desenvolvimento.
+  - Demonstrei os usos mais comuns de ambientes virtuais e destaquei a capacidade de isolar bibliotecas e pacotes específicos para cada projeto, evitando conflitos entre diferentes versões.
+  - Explorei a criação e utilização de arquivos requirements.txt para documentar e compartilhar as dependências do projeto. Este arquivo se tornou uma ferramenta valiosa para reproduzir ambientes de desenvolvimento em diferentes máquinas, garantindo uniformidade no processo de implementação.
+  - Reforcei a importância da virtualização no desenvolvimento diário, lembrando que a criação e ativação de ambientes virtuais são passos fundamentais antes de iniciar qualquer atividade de codificação. Essa prática contribui para ambientes mais estáveis, colaborativos e consistentes em projetos Python.
+
+
+
